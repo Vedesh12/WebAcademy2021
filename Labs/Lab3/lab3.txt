@@ -1,0 +1,27 @@
+<!--doctype html-->
+	<html>
+	<head>
+	<title>Base html document</title>
+	</head>
+	<body>
+	<h1>TAEHS</h1>
+	<h2>Web development academy</h2>
+	<h3>10# Grade</h3>
+	<h4>lab#</h4>
+	<h5>learnhing material</h5>
+	<h6>Vedesh Arjune</h6>
+	<p>I added the hyperlink by using the a attribute and include the link I am using. Then I wrote click here(Website Name/description).
+Then I typed the same thing but instead of click here I used the img attribute to include a pitchure of the website.</p>
+	<a href="https://www.taehs.org">Click here to visit my HS</a>
+	<br>
+	<a href="https://www.taehs.org"><img src="TAEHS.png" width="250px"></a>
+	
+	<a href="https://www.w3schools.com">Click here to visit w3schools</a>
+	<br>
+	<a href="https://www.w3schools.com"><img src="W3Schools.png" width="250px"></a>
+	
+	<a href="<a href="www.linkedin.com/in/vedesh-arjune-7360a7221">Click here to visit Linked In</a>
+	<br>
+	<a href="<a href="www.linkedin.com/in/vedesh-arjune-7360a7221"><img src="Linked In.png" width="250px"></a>
+	</body>
+	</html>

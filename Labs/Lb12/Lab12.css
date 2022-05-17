@@ -1,0 +1,68 @@
+/*The container <div> - needed to position the dropdown content*/
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+/*Dropdown Content (hidden by Defult)*/
+.dropDownContent{
+  display:none;
+  position:absolute;
+  background-color:palevioletred;
+  min-width:150px;
+  box-shadow:0px 8px 16px 0px rgba(10,100,236,0.9);
+  z-index:1;
+}
+/*makes the dropdown content appear*/
+.dropdown:hover .dropDownContent{
+  display:block;
+}
+/* Style The Dropdown Button*/
+.drpMenu{
+  background-color:lightpink;
+  color:lightblue;
+  padding:16px;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+}
+/*Makes the drop down menu appear and colors it*/
+.dropdown:hover .drpMenu{
+  background-color:lightblue;
+  color:lightpink;
+}
+/*decorates the dropdown*/
+.dropdown a{
+  
+  padding:12px 16px;
+  text-decoration:none;
+  display: none;
+}
+/*Colors and gives the dropdown hover a border*/
+.dropdown:hover a{
+  display: block;
+  background-color: lightgreen;
+  color: palevioletred;
+  border: 0.1px solid white;
+}
+/*Makes the second drop down hover styled*/
+.dropdown:hover a:hover{
+color: black;
+background-color: red;
+border: 1px solid black;
+  padding:12px 16px;
+}
+/*Gives the image a dotted border*/
+.dropdown img{
+  border:10px dotted lightgreen
+}
+/*Gives the caption of the image background color */
+.caption{
+  background-color:lightpink;
+  display:none;
+}
+/*Makes the content for the caption appear when you hover over the image*/
+.dropdown .dropDownContent:hover .caption{
+  display:block;
+  color:lightgreen;
+  background-color:lightpink;
+}

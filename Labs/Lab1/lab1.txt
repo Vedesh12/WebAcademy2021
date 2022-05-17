@@ -1,0 +1,16 @@
+<!-- Doctype html-->
+<html>
+              <head>
+              <title> My First WebPage</title>
+	      </head>
+              <body>
+			<h1>Thomas A. Edison CTE HS</h>
+                        <h2>Web Development Academy</h2>
+                        <h3>10th Grade</h3>
+                        <h4> Lab 1</h4>
+                        <h5> Intro to Hyper Text Markup Language</h5>
+                        <h6>  By Vedesh Arjune</h6>
+                        <p> I am 15 years old. I was born on June 25 2006. I speak only english. I am here because evryone has to go to school. I want to get a job and get money. I like minecraft and watching tv. I am alergic, my eyes get puffy and red.I am a boy, my pronouns are him/they/his. I have am double jointed in all of my fingers except my thumbs. I love dino nuggets.</p>
+                        <p> The html tab is what makes the webpage, title makes the title fot the webpage, the head puts the information in the header, and the body and paragragh puts your info in.
+              </body>
+</html>
